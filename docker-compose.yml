@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  dlnhks-game-server:
+  postgresql-sever:
     image: trantu30950/postgresql-sever:latest
     build: .
     container_name: postgresql-sever
